@@ -1,0 +1,156 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000; /* Warna hitam untuk semua teks */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000000; /* Warna hitam */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Container Styles */
+.container {
+    margin: 50px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1, h3, p, label, span {
+    color: #000000; /* Semua teks menjadi hitam */
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff;
+    color: #000000; /* Warna hitam untuk teks tombol */
+    border: none;
+    padding: 12px 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Input Fields */
+input {
+    display: block;
+    width: 85%;
+    padding: 12px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000000; /* Warna hitam untuk teks input */
+}
+
+/* To-Do List */
+.todo-container {
+    text-align: center;
+    padding: 15px;
+}
+
+#task, #date {
+    width: 90%;
+    text-align: center;
+    color: #000000;
+}
+
+#add-task {
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000000; /* Warna hitam untuk teks daftar */
+}
+
+.completed {
+    background-color: #28a745 !important;
+    color: #000000 !important;
+}
+
+.overdue {
+    background-color: #dc3545 !important;
+    color: #000000 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+    
+    #add-task {
+        width: 80%;
+    }
+}
