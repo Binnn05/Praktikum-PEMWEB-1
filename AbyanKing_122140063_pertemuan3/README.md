@@ -52,7 +52,7 @@ src/
 
 ## Screenshot Antarmuka
 
-![screenshot](assets/screenshot.jpg)
+![screenshot](assets/screenshot.png)
 
 ---
 
