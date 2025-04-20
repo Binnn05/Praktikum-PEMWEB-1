@@ -1,6 +1,6 @@
 # Aplikasi Manajemen Buku Pribadi
 
-Aplikasi ini dibuat untuk membantu pengguna mencatat dan mengelola daftar buku yang mereka miliki, sedang dibaca, atau ingin dibeli. Dibangun dengan React JS menggunakan konsep state management modern, routing, dan penyimpanan data lokal.
+Aplikasi ini dibuat untuk membantu pengguna mencatat dan mengelola daftar buku yang mereka miliki, sedang dibaca, atau ingin dibeli. Dibangun dengan React JS menggunakan konsep state management modern, routing, dan penyimpanan data lokal. Dibuat oleh Abyan King Al Baihaqy NIM 122140063 Pemrograman Web RA
 
 ---
 
