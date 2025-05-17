@@ -1,7 +1,7 @@
 matakuliah
 =================
 
-Getting Started
+Untuk Menjalankan
 ---------------
 
 - Change directory into your newly created project.
