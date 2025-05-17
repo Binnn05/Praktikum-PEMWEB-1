@@ -40,7 +40,7 @@ Untuk Menjalankan
 
 - Run your project.
 
-    pserve development.ini
+    pserve development.ini --reload
 
 
 
